@@ -87,7 +87,8 @@ END
 			</Annotation>
 		</Element>
 ```
-##Actual result
+
+## Actual result
 
 ``` xml
 		<Element Type="SqlView" Name="[dbo].[ViewNeedingFunction]">
