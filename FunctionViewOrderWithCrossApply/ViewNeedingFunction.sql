@@ -1,4 +1,4 @@
 ﻿CREATE VIEW [dbo].[ViewNeedingFunction]
-	AS SELECT E.Id
-	FROM dbo.EmptyTable E
-	CROSS APPLY (VALUES (dbo.ScalarFunction() )) v(a)
+	AS SELECT v.a
+	FROM (VALUES (dbo.ScalarFunction() )) v(a)
+	

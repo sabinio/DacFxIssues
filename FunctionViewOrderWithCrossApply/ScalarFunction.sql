@@ -1,10 +1,6 @@
-﻿CREATE FUNCTION [dbo].[ScalarFunction]
-(
-	@param1 int,
-	@param2 int
-)
+﻿CREATE FUNCTION [dbo].[ScalarFunction]()
 RETURNS INT
 AS
 BEGIN
-	RETURN @param1 + @param2
+	RETURN 100
 END

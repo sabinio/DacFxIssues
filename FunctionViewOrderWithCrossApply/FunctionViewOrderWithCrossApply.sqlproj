@@ -60,6 +60,6 @@
   <ItemGroup>
     <Build Include="ViewNeedingFunction.sql" />
     <Build Include="ScalarFunction.sql" />
-    <Build Include="EmptyTable.sql" />
+    <Build Include="Readme.md" />
   </ItemGroup>
 </Project>
