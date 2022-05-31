@@ -1,4 +1,6 @@
-﻿# Description
+# DACFX Issue https://github.com/microsoft/DacFx/issues/106
+
+# Description
 
 A function is order to deploy after the view that uses it and thus the view fails to deploy. 
 
